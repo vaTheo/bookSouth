@@ -1,15 +1,12 @@
 // packages/frontend/src/App.tsx
-import { useState } from 'react';
-import { Button } from './components/ui/button';
+
+import { Calendar } from "./components/ui/calendar";
 
 function App() {
-  const [count, setCount] = useState(0);
+  return <div className="justify-items-center">
+   <Calendar></Calendar> 
 
-  return (
-    <div className="App">
-      <Button>Click me pls !</Button>
-    </div>
-  );
+  </div>;
 }
 
 export default App;
